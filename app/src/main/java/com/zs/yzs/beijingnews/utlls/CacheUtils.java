@@ -3,7 +3,6 @@ package com.zs.yzs.beijingnews.utlls;
 import android.content.Context;
 import android.content.SharedPreferences;
 
-import com.zs.yzs.beijingnews.SplashActivity;
 
 /**
  * Created by YZS on 2017/4/13.
