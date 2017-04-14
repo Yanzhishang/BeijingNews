@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="output$Generated" generated="true"><source path="C:\Users\YZS\.android\build-cache\dabc74e8ced4d130f07b6b4f0d3d696f1da59cc1\output\res"/></dataSet><dataSet config="output$Generated" generated="true"><source path="C:\Users\YZS\.android\build-cache\61466217ed63b768e40a1ebae1a97d0c7331ce44\output\res"/></dataSet><dataSet config="output$Generated" generated="true"><source path="C:\Users\YZS\.android\build-cache\a0ed9841ee793f29d211d3c1db7ef0556215d4d4\output\res"/></dataSet><dataSet config="output$Generated" generated="true"><source path="C:\Users\YZS\.android\build-cache\3c1ddcf59e5c95768f928dbd2410789be8a97a76\output\res"/></dataSet><dataSet config="output$Generated" generated="true"><source path="C:\Users\YZS\.android\build-cache\642fbdf3dd36976f20fe132ea2f0403ac9af4cc6\output\res"/></dataSet><dataSet config="output$Generated" generated="true"><source path="C:\Users\YZS\.android\build-cache\022a1969a82b1be14f891fa31893eda0f1e44cc9\output\res"/></dataSet><dataSet config="main$Generated" generated="true"><source path="D:\app\demo\BeijingNews\SlidingMenu_library\res"/><source path="D:\app\demo\BeijingNews\SlidingMenu_library\build\generated\res\rs\debug"/><source path="D:\app\demo\BeijingNews\SlidingMenu_library\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug$Generated" generated="true"><source path="D:\app\demo\BeijingNews\SlidingMenu_library\src\debug\res"/></dataSet><dataSet config="output" from-dependency="true" generated-set="output$Generated"><source path="C:\Users\YZS\.android\build-cache\dabc74e8ced4d130f07b6b4f0d3d696f1da59cc1\output\res"/></dataSet><dataSet config="output" from-dependency="true" generated-set="output$Generated"><source path="C:\Users\YZS\.android\build-cache\61466217ed63b768e40a1ebae1a97d0c7331ce44\output\res"/></dataSet><dataSet config="output" from-dependency="true" generated-set="output$Generated"><source path="C:\Users\YZS\.android\build-cache\a0ed9841ee793f29d211d3c1db7ef0556215d4d4\output\res"/></dataSet><dataSet config="output" from-dependency="true" generated-set="output$Generated"><source path="C:\Users\YZS\.android\build-cache\3c1ddcf59e5c95768f928dbd2410789be8a97a76\output\res"/></dataSet><dataSet config="output" from-dependency="true" generated-set="output$Generated"><source path="C:\Users\YZS\.android\build-cache\642fbdf3dd36976f20fe132ea2f0403ac9af4cc6\output\res"/></dataSet><dataSet config="output" from-dependency="true" generated-set="output$Generated"><source path="C:\Users\YZS\.android\build-cache\022a1969a82b1be14f891fa31893eda0f1e44cc9\output\res"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="D:\app\demo\BeijingNews\SlidingMenu_library\res"><file name="slidingmenumain" path="D:\app\demo\BeijingNews\SlidingMenu_library\res\layout\slidingmenumain.xml" qualifiers="" type="layout"/><file path="D:\app\demo\BeijingNews\SlidingMenu_library\res\values\attrs.xml" qualifiers=""><declare-styleable name="SlidingMenu">
+        <attr name="mode">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+        </attr>
+        <attr format="reference" name="viewAbove"/>
+        <attr format="reference" name="viewBehind"/>
+        <attr format="dimension" name="behindOffset"/>
+        <attr format="dimension" name="behindWidth"/>
+        <attr format="float" name="behindScrollScale"/>
+        <attr name="touchModeAbove">
+            <enum name="margin" value="0"/>
+            <enum name="fullscreen" value="1"/>
+            <enum name="none" value="2"/>
+        </attr>
+        <attr name="touchModeBehind">
+            <enum name="margin" value="0"/>
+            <enum name="fullscreen" value="1"/>
+            <enum name="none" value="2"/>
+        </attr>
+        <attr format="reference" name="shadowDrawable"/>
+        <attr format="dimension" name="shadowWidth"/>
+        <attr format="boolean" name="fadeEnabled"/>
+        <attr format="float" name="fadeDegree"/>
+        <attr format="boolean" name="selectorEnabled"/>
+        <attr format="reference" name="selectorDrawable"/>
+    </declare-styleable></file><file path="D:\app\demo\BeijingNews\SlidingMenu_library\res\values\ids.xml" qualifiers=""><item name="selected_view" type="id"/></file></source><source path="D:\app\demo\BeijingNews\SlidingMenu_library\build\generated\res\rs\debug"/><source path="D:\app\demo\BeijingNews\SlidingMenu_library\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug" generated-set="debug$Generated"><source path="D:\app\demo\BeijingNews\SlidingMenu_library\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="SlidingMenu"><attr name="mode">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+        </attr><attr format="reference" name="viewAbove"/><attr format="reference" name="viewBehind"/><attr format="dimension" name="behindOffset"/><attr format="dimension" name="behindWidth"/><attr format="float" name="behindScrollScale"/><attr name="touchModeAbove">
+            <enum name="margin" value="0"/>
+            <enum name="fullscreen" value="1"/>
+            <enum name="none" value="2"/>
+        </attr><attr name="touchModeBehind">
+            <enum name="margin" value="0"/>
+            <enum name="fullscreen" value="1"/>
+            <enum name="none" value="2"/>
+        </attr><attr format="reference" name="shadowDrawable"/><attr format="dimension" name="shadowWidth"/><attr format="boolean" name="fadeEnabled"/><attr format="float" name="fadeDegree"/><attr format="boolean" name="selectorEnabled"/><attr format="reference" name="selectorDrawable"/></declare-styleable></configuration></mergedItems></merger>
