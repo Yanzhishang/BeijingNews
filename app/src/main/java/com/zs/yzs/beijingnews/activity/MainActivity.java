@@ -8,6 +8,7 @@ import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
 import com.jeremyfeinstein.slidingmenu.lib.app.SlidingFragmentActivity;
 import com.zs.yzs.beijingnews.R;
 import com.zs.yzs.beijingnews.fragment.ContentFragment;
+import com.zs.yzs.beijingnews.fragment.LeftmenuFragment;
 import com.zs.yzs.beijingnews.utlls.DensityUtil;
 
 public class MainActivity extends SlidingFragmentActivity{
@@ -18,6 +19,7 @@ public class MainActivity extends SlidingFragmentActivity{
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         //1、设置主页面（新闻）
         setContentView(R.layout.activity_main);
 
@@ -31,7 +33,7 @@ public class MainActivity extends SlidingFragmentActivity{
         //4、设置显示的模式：左侧菜单+主页；左侧菜单+主页+右侧菜单； 主页+右侧菜单
         slidingMenu.setMode(SlidingMenu.LEFT);  //左菜单
 
-        //5、设置滑动模式：滑动边缘；滑动全屏；不可滑动
+        //5、设置滑动模式：滑动边缘 TOUCHMODE_MARGIN；滑动全屏 TOUCHMODE_FULLSCREEN；不可滑动 TOUCHMODE_NONE
         slidingMenu.setTouchModeAbove(SlidingMenu.TOUCHMODE_FULLSCREEN);
 
         //6、设置主页宽度
@@ -61,7 +63,7 @@ public class MainActivity extends SlidingFragmentActivity{
                 //主页
         ft.replace(R.id.fl_main_content, new ContentFragment(), MAIN_CONTENT_TAG);
                 //左侧菜单
-        ft.replace(R.id.fl_leftmenu, new ContentFragment(), LEFTMENU_TAG);
+        ft.replace(R.id.fl_leftmenu, new LeftmenuFragment(), LEFTMENU_TAG);
         //4、提交
         ft.commit();
 

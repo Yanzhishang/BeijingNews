@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <android.support.v4.view.ViewPager
+    <com.zs.yzs.beijingnews.view.NoScrollViewPager
         android:id="@+id/viewpager"
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -14,44 +14,43 @@
         android:id="@+id/rg_main"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#444444"
+        android:background="@drawable/bottom_tab_bg"
         android:orientation="horizontal">
 
         <RadioButton
             android:id="@+id/rb_home"
-            android:gravity="center"
-            android:drawableTop="@drawable/rb_home_drawable_selector"
-            android:text="主页"
             style="@style/button_tag_style"
-            />
+            android:drawableTop="@drawable/rb_home_drawable_selector"
+            android:gravity="center"
+            android:text="主页" />
+
         <RadioButton
             android:id="@+id/rb_newscenter"
-            android:gravity="center"
-            android:drawableTop="@drawable/rb_home_drawable_selector"
-            android:text="新闻"
             style="@style/button_tag_style"
-            />
+            android:drawableTop="@drawable/rb_newscenter_drawable_selector"
+            android:gravity="center"
+            android:text="新闻" />
+
         <RadioButton
             android:id="@+id/rb_smartservice"
-            android:gravity="center"
-            android:drawableTop="@drawable/rb_home_drawable_selector"
-            android:text="智慧"
             style="@style/button_tag_style"
-            />
+            android:drawableTop="@drawable/rb_smartservice_drawable_selector"
+            android:gravity="center"
+            android:text="智慧" />
+
         <RadioButton
             android:id="@+id/rb_government"
-            android:gravity="center"
-            android:drawableTop="@drawable/rb_home_drawable_selector"
-            android:text="政要"
             style="@style/button_tag_style"
-            />
+            android:drawableTop="@drawable/rb_government_drawable_selector"
+            android:gravity="center"
+            android:text="政要" />
+
         <RadioButton
             android:id="@+id/rb_setting"
-            android:gravity="center"
-            android:drawableTop="@drawable/rb_home_drawable_selector"
-            android:text="设置"
             style="@style/button_tag_style"
-            />
+            android:drawableTop="@drawable/rb_setting_drawable_selector"
+            android:gravity="center"
+            android:text="设置" />
 
     </RadioGroup>
 

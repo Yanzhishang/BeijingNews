@@ -28,4 +28,6 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     compile project(':SlidingMenu_library')
+    compile project(':xutils')           //关联本地
+//    compile 'org.xutils:xutils:3.5.0'         //关联网络
 }
