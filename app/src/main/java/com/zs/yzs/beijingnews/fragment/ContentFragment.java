@@ -15,6 +15,7 @@ import com.zs.yzs.beijingnews.R;
 import com.zs.yzs.beijingnews.base.BaseFragment;
 import com.zs.yzs.beijingnews.base.BasePager;
 import com.zs.yzs.beijingnews.utlls.LogUtil;
+import com.zs.yzs.beijingnews.view.NoScrollViewPager;
 
 import org.xutils.view.annotation.ViewInject;
 import org.xutils.x;
@@ -30,7 +31,7 @@ import java.util.ArrayList;
 public class ContentFragment extends BaseFragment{
     //初始化控件
     @ViewInject(R.id.viewpager)     //找到控件ID
-    private ViewPager viewpager;    //命名可变
+    private NoScrollViewPager viewpager;    //命名可变
     //初始化控件
     @ViewInject(R.id.rg_main)       //找到控件ID
     private RadioGroup rg_main;
